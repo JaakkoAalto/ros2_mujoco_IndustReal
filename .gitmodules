@@ -1,0 +1,7 @@
+[submodule "src/dfki_mujoco"]
+	path = src/dfki_mujoco
+	url = https://github.com/dfki-ric/mujoco_ros2_control
+[submodule "src/franka_description"]
+	path = src/franka_description
+	url = https://github.com/frankarobotics/franka_description.git
+	branch = jazzy

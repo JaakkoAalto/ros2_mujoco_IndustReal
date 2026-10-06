@@ -1,0 +1,6 @@
+{
+  "name": "Franka Grasping",
+  "dockerComposeFile": "../docker-compose.yaml",
+  "service": "sim",
+  "workspaceFolder": "/ros2_ws/src"
+}

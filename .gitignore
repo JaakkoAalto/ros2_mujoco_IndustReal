@@ -1,0 +1,27 @@
+cat << 'EOF' > .gitignore
+# ROS 2 Build Artifacts
+build/
+install/
+log/
+
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# OS Generated
+.DS_Store
+Thumbs.db
+
+# VS Code / IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.devcontainer/*
+!.devcontainer/devcontainer.json
+EOF
